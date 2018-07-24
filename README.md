@@ -4,9 +4,9 @@ ISDC Project - Traffic Light Classifier using Python
 In this project, I've applied knowledge of computer vision techniques to build a classifier for images of traffic lights in which either the red, yellow or green light is illuminated. 
 
 This project includes the following files:
-1. helpers.py - Contains helper function for loading the raw input data.
+1. helpers.py - Contains helper function for loading the images
 2. Traffic_Light_Classifier.ipynb - Jupyter notebook that contains all the instructions for the project
-3. test_functions.py - Contains code for testing get_speeds, get_x_y and get_headings
+3. test_functions.py - Contains code for testing the one_hot_encode function and that red images are never classified as green
 
 Classification Steps
 ---
